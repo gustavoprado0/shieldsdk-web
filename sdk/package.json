@@ -1,0 +1,23 @@
+{
+  "name": "shieldsdk",
+  "version": "0.1.0",
+  "description": "Mini SDK web anti-fraude",
+  "type": "module",
+  "main": "dist/index.cjs",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "test": "vitest run"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "@typescript/typescript6": "^6.0.2",
+    "tsup": "^9.0.0",
+    "typescript": "5.9",
+    "vitest": "^5.0.5"
+  }
+}
